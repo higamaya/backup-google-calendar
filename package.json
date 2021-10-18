@@ -1,0 +1,19 @@
+{
+  "name": "backup-google-calendar",
+  "version": "1.0.0",
+  "description": "Google Apps Script to backup my Google Calendar.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/higamaya/backup-google-calendar.git"
+  },
+  "author": "Higama-ya",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/higamaya/backup-google-calendar/issues"
+  },
+  "homepage": "https://github.com/higamaya/backup-google-calendar#readme"
+}
