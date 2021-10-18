@@ -4,7 +4,7 @@
   "description": "Google Apps Script to backup my Google Calendar.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "clasp": "clasp"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,6 @@
   "bugs": {
     "url": "https://github.com/higamaya/backup-google-calendar/issues"
   },
-  "homepage": "https://github.com/higamaya/backup-google-calendar#readme"
+  "homepage": "https://github.com/higamaya/backup-google-calendar#readme",
+  "devDependencies": {}
 }
