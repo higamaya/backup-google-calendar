@@ -16,5 +16,7 @@
     "url": "https://github.com/higamaya/backup-google-calendar/issues"
   },
   "homepage": "https://github.com/higamaya/backup-google-calendar#readme",
-  "devDependencies": {}
+  "devDependencies": {
+    "@google/clasp": "^2.4.2"
+  }
 }
