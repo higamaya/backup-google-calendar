@@ -52,7 +52,7 @@ File name can also be changed with the constants defined in `main.gs`.
 
 #### Expiration for backup files
 
-By default, expilation of backup files is 400 days, and expired files will be trashed.
+By default, expilation of backup files is 30 days, and expired files will be trashed.
 
 Expilation days can also be changed with the constant defined in `main.gs`.
 

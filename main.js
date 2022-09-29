@@ -2,7 +2,7 @@ const BACKUP_FOLDER_PATH = "backup/calendar";
 const BACKUP_FILE_PREFIX = "backup_calendar_";
 const BACKUP_FILE_EXT = ".ics";
 
-const BACKUP_FILE_EXPIRATION_DAYS = 400;
+const BACKUP_FILE_EXPIRATION_DAYS = 30;
 
 const PROP_ICAL_URL = "iCalUrl";
 
