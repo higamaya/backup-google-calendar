@@ -30,11 +30,11 @@ Submitted secret address is stored in User Properties[^2] of the GAS project.
 
 User Properties can be accessed only by the user, so your secret is safe.
 
-<p align="right">(<a href="#top">Back to top</a>)</p>
-
 #### 4. Install GAS trigger
 
 Install GAS trigger to run backup task periodically. `main` function must be specified in the trigger.
+
+<p align="right">(<a href="#top">Back to top</a>)</p>
 
 ## Customize
 
