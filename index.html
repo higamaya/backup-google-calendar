@@ -2,16 +2,16 @@
 <html>
 
 <head>
-	<base target="_top">
-	<script>
-		function preventFormSubmit() {
+  <base target="_top">
+  <script>
+    function preventFormSubmit() {
       var forms = document.querySelectorAll('form');
       for (var i = 0; i < forms.length; i++) {
         forms[i].addEventListener('submit', event => event.preventDefault());
       }
     }
     window.addEventListener('load', preventFormSubmit);
-    
+
     function submitSetICalUrl(formObject) {
       google.script.run.withSuccessHandler(updateSetICalUrlResult).api_setICalURL(formObject);
     }
@@ -20,11 +20,12 @@
       resultTag.className = result.error ? "error" : "success";
       document.getElementById('set_ical_url_result').innerHTML = result.message;
     }
-	</script>
+  </script>
   <style>
     .success {
       color: green;
     }
+
     .error {
       color: red;
     }
@@ -32,13 +33,13 @@
 </head>
 
 <body>
-	<form onsubmit="submitSetICalUrl(this)">
-		<label for="ical_url">Calendar URL:</label>
-		<? var iCalUrl = api_getICalURL(); ?>
-		<input id="iCalUrl" name="iCalUrl" type="url" size="100" placeholder="<?= iCalUrl ? iCalUrl : "Enter url of your Google Calendar."; ?>" required="required" />
-		<input type="submit" />
-	</form>
-		<div id="set_ical_url_result"></div>
+  <form onsubmit="submitSetICalUrl(this)">
+    <label for="iCalUrl">Calendar URL:</label>
+    <? var iCalUrl = api_getICalURL(); ?>
+    <input id="iCalUrl" name="iCalUrl" type="url" size="100" placeholder="<?= iCalUrl ? iCalUrl : "Enter url of your Google Calendar."; ?>" required="required" />
+    <input type="submit" />
+  </form>
+  <div id="set_ical_url_result"></div>
 </body>
 
 </html>

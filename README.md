@@ -16,9 +16,9 @@ The data is saved in iCalendar format with an extension of `.ics`.
 
 #### 2. Copy the following files in this repo to the GAS project.
 
-* `main.js`
-* `webapi.js`
-* `index.html`
+- `main.js`
+- `webapi.js`
+- `index.html`
 
 #### 3. Store the Secret Address[^1] of Google Calendar.
 
